@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -14,26 +14,16 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ziT-6z-iv2">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="od0-r9-iuK">
-                                        <rect key="frame" x="53" y="157" width="287" height="538"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EggTastic" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pk-6n-nDs">
-                                                <rect key="frame" x="32.000000000000014" y="0.0" width="223.33333333333337" height="65.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="749" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="HLU-Br-Prv">
-                                                <rect key="frame" x="0.0" y="172.66666666666666" width="287" height="365.33333333333337"/>
-                                            </imageView>
-                                        </subviews>
-                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="749" fixedFrame="YES" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="HLU-Br-Prv">
+                                        <rect key="frame" x="84" y="273" width="223" height="298"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
@@ -41,10 +31,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="ziT-6z-iv2" secondAttribute="bottom" id="REf-1l-aLh"/>
-                            <constraint firstItem="ziT-6z-iv2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dZu-sG-r5X"/>
-                            <constraint firstItem="ziT-6z-iv2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kTJ-oN-14D"/>
-                            <constraint firstAttribute="trailing" secondItem="ziT-6z-iv2" secondAttribute="trailing" id="s87-yp-P1U"/>
+                            <constraint firstItem="ziT-6z-iv2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Gko-vJ-Nhw"/>
+                            <constraint firstItem="ziT-6z-iv2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nCO-nM-xLf"/>
+                            <constraint firstAttribute="trailing" secondItem="ziT-6z-iv2" secondAttribute="trailing" id="y84-vh-vcQ"/>
+                            <constraint firstAttribute="bottom" secondItem="ziT-6z-iv2" secondAttribute="bottom" id="zWj-dE-D38"/>
                         </constraints>
                     </view>
                 </viewController>
