@@ -20,21 +20,27 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ziT-6z-iv2" userLabel="backgroundView">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="EggTastic " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrI-sd-vow">
-                                        <rect key="frame" x="20" y="170" width="350" height="48"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="sLK-6u-7kN">
+                                        <rect key="frame" x="75" y="302" width="240" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="1Oo-qn-6NV"/>
+                                            <constraint firstAttribute="height" constant="240" id="oB3-Sg-sAs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EggTastic " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="MrI-sd-vow">
+                                        <rect key="frame" x="94" y="170" width="203.66666666666663" height="48"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soft_egg" translatesAutoresizingMaskIntoConstraints="NO" id="A9y-5P-ySN">
-                                        <rect key="frame" x="75" y="410" width="240" height="240"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstItem="MrI-sd-vow" firstAttribute="centerY" secondItem="ziT-6z-iv2" secondAttribute="top" constant="-200" id="EMa-sv-Q66"/>
+                                    <constraint firstAttribute="trailing" secondItem="MrI-sd-vow" secondAttribute="trailing" constant="92.333333333333371" id="OSq-a0-ZCC"/>
+                                    <constraint firstItem="sLK-6u-7kN" firstAttribute="centerY" secondItem="ziT-6z-iv2" secondAttribute="centerY" id="QbN-Nc-l2Z"/>
                                     <constraint firstItem="MrI-sd-vow" firstAttribute="top" secondItem="ziT-6z-iv2" secondAttribute="top" constant="170" id="TGV-eo-5oU"/>
+                                    <constraint firstItem="sLK-6u-7kN" firstAttribute="centerX" secondItem="ziT-6z-iv2" secondAttribute="centerX" id="ohW-ez-cBz"/>
+                                    <constraint firstItem="MrI-sd-vow" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ziT-6z-iv2" secondAttribute="leading" constant="20" symbolic="YES" id="tuv-o2-oOs"/>
                                 </constraints>
                             </view>
                         </subviews>
